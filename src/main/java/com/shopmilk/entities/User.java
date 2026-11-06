@@ -22,7 +22,7 @@ import lombok.Data;
  */
 @Data // cái này tự động tạo constructor, getter, setter.
 @Entity
-@Table(name = "user", catalog = "shopmilk")
+@Table(name = "users")
 public class User implements java.io.Serializable, UserDetails{
 
 	private static final long serialVersionUID = 3652701442993010760L;
